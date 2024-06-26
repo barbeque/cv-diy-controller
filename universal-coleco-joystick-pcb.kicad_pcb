@@ -6915,7 +6915,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D24"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "6555a287-e015-4100-a8c1-9dab77bc0e5d")
 			(effects
@@ -6926,7 +6926,7 @@
 			)
 		)
 		(property "Value" "D_45deg"
-			(at 5.08 2.47 360)
+			(at 5.08 2.47 0)
 			(layer "F.Fab")
 			(uuid "3cba364f-187e-4fa8-8ebe-a44283df881e")
 			(effects
@@ -7239,7 +7239,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.47 0 360)
+			(at 5.47 0 0)
 			(layer "F.Fab")
 			(uuid "04fe9ce3-fb39-4693-a161-ede4cfe9c138")
 			(effects
@@ -7250,7 +7250,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "F.Fab")
 			(uuid "4527fd1c-37a3-485c-8b9f-8826da55fd96")
 			(effects
@@ -8184,7 +8184,7 @@
 		(descr "9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 25mm mounting-hole-offset 25mm")
 		(property "Reference" "J2"
-			(at -5.54 -2.8 360)
+			(at -5.54 -2.8 0)
 			(layer "F.SilkS")
 			(uuid "1e864e7a-46a5-44e7-9bb2-d8d7c5124ae4")
 			(effects
@@ -8195,7 +8195,7 @@
 			)
 		)
 		(property "Value" "DE9_Receptacle"
-			(at -5.54 18.61 360)
+			(at -5.54 18.61 0)
 			(layer "F.Fab")
 			(uuid "c660c693-6ba7-4491-93d7-316863b3bb40")
 			(effects
@@ -8612,7 +8612,7 @@
 			(uuid "10bcb006-6364-4eb0-b751-50928139c2dc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -5.54 14.025 360)
+			(at -5.54 14.025 0)
 			(layer "F.Fab")
 			(uuid "e1633ceb-120d-44b9-986c-29008db6aea7")
 			(effects
@@ -9735,7 +9735,7 @@
 			(uuid "eb3376e3-d4fd-43d4-8788-02edd49cd69a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 10.16 360)
+			(at 0 10.16 0)
 			(layer "F.Fab")
 			(uuid "a15f38b7-9876-4846-8328-036b4faa9c6b")
 			(effects
@@ -16534,6 +16534,126 @@
 		(layer "Edge.Cuts")
 		(uuid "ff1cf81f-62c1-4ccd-ac68-0a775ca37fda")
 	)
+	(gr_text "3"
+		(at 136.525 74.93 0)
+		(layer "B.SilkS")
+		(uuid "03d1052e-f3b5-4ce4-978a-40ffc422d9bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "4"
+		(at 139.065 74.93 0)
+		(layer "B.SilkS")
+		(uuid "128d0d83-586f-4343-aa84-e0676d19bf63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "8"
+		(at 137.795 68.58 0)
+		(layer "B.SilkS")
+		(uuid "4d3ddf42-1298-4c2f-9f43-82eb5442ad84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "9"
+		(at 140.335 68.58 0)
+		(layer "B.SilkS")
+		(uuid "522de012-7c70-4546-a891-2806184aa63a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "2"
+		(at 133.35 74.93 0)
+		(layer "B.SilkS")
+		(uuid "68c41ea6-13e4-43db-8e62-45ea99368466")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "1"
+		(at 130.81 74.93 0)
+		(layer "B.SilkS")
+		(uuid "72d55033-ef74-4236-a7bd-916fd7a57e3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "7"
+		(at 134.62 68.58 0)
+		(layer "B.SilkS")
+		(uuid "c8826d65-8093-40c4-827c-06b5b7e17a42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "5"
+		(at 142.875 74.93 0)
+		(layer "B.SilkS")
+		(uuid "eb8d127f-f8c8-485c-aab8-dd54c88f76d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "6"
+		(at 132.08 68.58 0)
+		(layer "B.SilkS")
+		(uuid "ffa7b8dc-e54a-4e90-88d2-8670e81ac159")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "CV DIY Joystick (Sanwa Edition) v1 leadedsolder.com 2024"
+		(at 90.805 121.285 0)
+		(layer "F.SilkS")
+		(uuid "18699345-8c14-463c-bf2c-cb0cd5d388a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Down"
 		(at 88.9 72.39 0)
 		(layer "F.SilkS")
@@ -16562,6 +16682,18 @@
 		(at 86.36 80.01 0)
 		(layer "F.SilkS")
 		(uuid "4d99b0b9-cb6e-4d12-8f3c-ddc5140209bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Female DE9 (optional)"
+		(at 127.635 66.04 0)
+		(layer "F.SilkS")
+		(uuid "84f79ac5-344b-4d35-821e-8b6220d61dfc")
 		(effects
 			(font
 				(size 1 1)
