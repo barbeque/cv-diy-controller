@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "cv-diy-joystick-proto1")
 		)
 	)
 	(net 0 "")
@@ -16709,6 +16709,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 94.615 91.44)
+		(end 100.33 120.015)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "94a4f141-1045-4444-8258-a5c7c779e848")
+	)
 	(gr_arc
 		(start 86.995 123.229533)
 		(mid 83.156998 121.49812)
@@ -17065,16 +17076,18 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "CV DIY Joystick (Sanwa Edition) v1 leadedsolder.com 2024"
-		(at 90.805 121.285 0)
+	(gr_text "CV DIY Control\nleadedsolder.com"
+		(at 94 80.6 90)
 		(layer "F.SilkS")
 		(uuid "18699345-8c14-463c-bf2c-cb0cd5d388a0")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+				(italic yes)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "Down"
@@ -17369,6 +17382,18 @@
 		(at 182.245 107.95 0)
 		(layer "F.SilkS" knockout)
 		(uuid "ddce530c-1340-4e40-b6a8-12c819cd921d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2024-v1"
+		(at 96.52 90.805 90)
+		(layer "F.SilkS")
+		(uuid "ecabcae6-04b9-48df-984c-adf97c8b1d86")
 		(effects
 			(font
 				(size 1 1)
