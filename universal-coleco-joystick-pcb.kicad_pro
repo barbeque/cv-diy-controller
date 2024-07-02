@@ -483,7 +483,7 @@
       "plot": "cv-diy-joystick-proto1",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "universal-coleco-joystick-pcb.step",
       "svg": "",
       "vrml": ""
     },
