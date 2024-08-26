@@ -4461,7 +4461,7 @@
 		(uuid "8130e945-c4b6-4d81-9de0-649ab9ecfab4")
 	)
 	(label "Left"
-		(at 92.71 58.42 0)
+		(at 92.71 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4593,7 +4593,7 @@
 		(uuid "baab2121-51bf-4ebf-a820-52858cd6dc32")
 	)
 	(label "Right"
-		(at 92.71 60.96 0)
+		(at 92.71 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

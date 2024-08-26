@@ -110,7 +110,7 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "075c8be2-e101-4470-a287-49f9c9982f68")
-		(at 102.87 79.375)
+		(at 102.8 79.4)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D4"
@@ -476,7 +476,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "/Right")
+			(net 5 "/Left")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "10cbd871-79c6-40b9-ace1-c88cf3bfd0f0")
@@ -16326,7 +16326,7 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fe6c2d8a-22b6-4bac-a473-718e8aec4932")
-		(at 102.87 75.565)
+		(at 102.84 75.6)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D3"
@@ -16692,7 +16692,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "/Left")
+			(net 8 "/Right")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "bb9ed31f-bce8-4326-bacd-02e5b821b5be")
@@ -17152,7 +17152,7 @@
 	)
 	(gr_text "Common"
 		(at 86.36 80.01 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "4d99b0b9-cb6e-4d12-8f3c-ddc5140209bb")
 		(effects
 			(font
@@ -17331,7 +17331,7 @@
 		)
 	)
 	(gr_text "Right"
-		(at 88.9 77.47 0)
+		(at 88.9 75 0)
 		(layer "F.SilkS")
 		(uuid "c91efc65-3cc3-4639-ae91-d665693f47fc")
 		(effects
@@ -17355,7 +17355,7 @@
 		)
 	)
 	(gr_text "Left"
-		(at 89.535 74.93 0)
+		(at 89.8 77.4 0)
 		(layer "F.SilkS")
 		(uuid "d54f987b-8e91-41d9-bc6f-0d498e6edd83")
 		(effects
@@ -17390,7 +17390,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "2024-v1"
+	(gr_text "2024-v2"
 		(at 96.52 90.805 90)
 		(layer "F.SilkS")
 		(uuid "ecabcae6-04b9-48df-984c-adf97c8b1d86")
@@ -17572,11 +17572,19 @@
 	)
 	(segment
 		(start 129.26 80.925)
-		(end 118.39 80.925)
+		(end 114.485 80.925)
 		(width 1)
 		(layer "F.Cu")
 		(net 5)
-		(uuid "2ed785dc-353f-4c02-91bf-15c7cf111cb9")
+		(uuid "adaf6650-624a-44b1-8e88-2f48342252e7")
+	)
+	(segment
+		(start 114.485 80.925)
+		(end 112.96 79.4)
+		(width 1)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "b5a364f6-77c4-4f4d-bcb3-94b1d0c89e4c")
 	)
 	(segment
 		(start 130.81 79.375)
@@ -17584,15 +17592,7 @@
 		(width 1)
 		(layer "F.Cu")
 		(net 5)
-		(uuid "92e918e6-20af-40c5-935f-d8ed44cda371")
-	)
-	(segment
-		(start 118.39 80.925)
-		(end 113.03 75.565)
-		(width 1)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "e0015226-2430-4b30-96c5-7e45a3412fe2")
+		(uuid "c6b7fb5f-9a18-48ef-a419-d8e52357a9d0")
 	)
 	(segment
 		(start 130.81 79.375)
@@ -17667,28 +17667,44 @@
 		(uuid "44b57735-2694-4f76-814d-e18933450458")
 	)
 	(segment
-		(start 115.78 82.125)
+		(start 111.16 80.145585)
+		(end 111.16 77.44)
+		(width 1)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "0c4ab1e5-1215-4892-9f9f-3a0c9eb3d779")
+	)
+	(segment
+		(start 130.6 82.125)
+		(end 113.139415 82.125)
+		(width 1)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "16a73968-af9d-482d-8bf0-c1330be587ad")
+	)
+	(segment
+		(start 133.35 79.375)
 		(end 130.6 82.125)
 		(width 1)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "4de89300-68e5-4b5f-9a92-453403a84c5e")
+		(uuid "22e10485-3d23-435c-8067-ab5238f6c1bc")
 	)
 	(segment
-		(start 113.03 79.375)
-		(end 115.78 82.125)
+		(start 111.16 77.44)
+		(end 113 75.6)
 		(width 1)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "841acc0b-5db7-45dc-a238-204b9fd7a7f5")
+		(uuid "4a06abd5-b217-43ff-90cc-992fc728a621")
 	)
 	(segment
-		(start 130.6 82.125)
-		(end 133.35 79.375)
+		(start 113.139415 82.125)
+		(end 111.16 80.145585)
 		(width 1)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "d8a34698-b284-4b55-a0e2-0d8c3d33fa9e")
+		(uuid "a93c21ad-d32d-4f70-b8c3-3f5b84c7ec2e")
 	)
 	(segment
 		(start 133.35 79.375)
