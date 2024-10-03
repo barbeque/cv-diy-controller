@@ -1,13 +1,23 @@
+![The assembled joystick.](assembled.png)
+
 ## Introduction
 
 The stock "Hand Controller" on the ColecoVision is prone to wearing out. It is also uncomfortable to play for long periods of time, due to the position that your hand has to be placed into.
 
-
+![The topside of the PCB.](topside.png)
 
 This PCB allows you to use a generic "arcade joystick kit" to build an arcade-style joystick for the ColecoVision. It makes it much easier to play.
 
 ## Support
 If you liked this joystick, please [consider supporting my Patreon](https://www.patreon.com/leadedsolder) or [buying me a ko-fi](https://ko-fi.com/leadedsolder). Every penny goes back into making more free and open-source hardware for old computers and game systems.
+
+## Bill of Materials
+
+| Part                   | Quantity | Comment |
+|------------------------|----------|---------|
+| 1n5817 Schottky diode  | 28       | You can also use 1n4148, which is cheaper |
+| A-DF 09 A/KG-T2S male DE9 | 1     | For use with a Sega extension cable.      |
+| 0.1" male pin headers  | At least 40 | |
 
 ## Required Joystick Parts
 
