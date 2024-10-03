@@ -11,6 +11,11 @@ This PCB allows you to use a generic "arcade joystick kit" to build an arcade-st
 ## Support
 If you liked this joystick, please [consider supporting my Patreon](https://www.patreon.com/leadedsolder) or [buying me a ko-fi](https://ko-fi.com/leadedsolder). Every penny goes back into making more free and open-source hardware for old computers and game systems.
 
+## Ordering the PCB
+Download the Gerber files from [the Releases page](/releases) and send them to your favourite PCB manufacturer.
+
+You can also [order the PCB from PCBWay directly](https://www.pcbway.com/project/shareproject/ColecoVision_DIY_arcade_joystick_PCB_e30ae2ff.html); I will receive a small cut of this price.
+
 ## Bill of Materials
 
 | Part                   | Quantity | Comment |
