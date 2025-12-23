@@ -8,6 +8,12 @@ The stock "Hand Controller" on the ColecoVision is prone to wearing out. It is a
 
 This PCB allows you to use a generic "arcade joystick kit" to build an arcade-style joystick for the ColecoVision. It makes it much easier to play.
 
+## Version History
+### 2024-v2
+Diodes were flipped to actually make the PCB work properly. Mea culpa!
+
+Board was shrunk below 100x100mm to make ordering cheaper.
+
 ## Support
 If you liked this joystick, please [consider supporting my Patreon](https://www.patreon.com/leadedsolder) or [buying me a ko-fi](https://ko-fi.com/leadedsolder). Every penny goes back into making more free and open-source hardware for old computers and game systems.
 
